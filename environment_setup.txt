@@ -1,0 +1,9 @@
+1. Install any subversion of Java JDK 1.7 from http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+
+2. Download and install Gradle by going to: https://gradle.org/  Please install the latest version.
+
+3. Execute the following command from the project root: gradle wrapper (Please note that the 'gradle' executable is inside of the 'bin' directory in the Gradle project)
+
+4. Execute the following command from the project root: gradlew appRun
+
+5. The application should now be accessible on http://localhost:8080.  Please note that this project utilizes a Gradle plug-in called 'Gretty', which supports hot deployment.  When files are modified, Gretty will automatically reload your application.

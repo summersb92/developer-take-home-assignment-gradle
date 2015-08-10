@@ -1,0 +1,16 @@
+Welcome to the Cappex developer take home test. You will be setting up
+a development environment and writing a small web application as part of this
+take home test. The environment setup instructions, environment_setup_instructions.txt, 
+and web application requirements, web_application_requirements.txt, can both be 
+found within the same directory as this file.
+
+If you have any questions about the setup or requirements, please email 
+jpark@cappex.com and mkruger@cappex.com and one of them will be happy to assist you.
+
+Also, if you discover any issues with our documentation or base web application,
+please don't hesitate to let us know. We are always looking for ways to improve.
+
+Have fun and we look forward to reviewing your work. 
+
+Sincerely,
+The Cappex Technology Team

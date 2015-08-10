@@ -1,0 +1,35 @@
+apply plugin: 'java'
+apply plugin: 'war'
+apply from: 'https://raw.github.com/akhikhl/gretty/master/pluginScripts/gretty.plugin'
+
+repositories {
+    mavenCentral()
+}
+
+gretty {
+    contextPath = '/'
+}
+
+dependencies {
+    providedCompile (
+        'org.apache.commons:commons-lang3:3.1',
+        'javax.servlet:javax.servlet-api:3.1.0',
+        'com.h2database:h2:1.4.187'
+    )
+    runtime (
+        'javax.servlet:jstl:1.2'
+    )
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.5'
+}
+
+task setupDatabase(type:JavaExec) {
+    main = 'com.cappex.DatabaseConfiguration'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+project.afterEvaluate {
+    appRun.dependsOn setupDatabase
+}
