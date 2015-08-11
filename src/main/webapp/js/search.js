@@ -1,1 +1,1 @@
-// TODO: This file should include all functionality relevant to the College Search page.  Should make use of ExecuteSearchServlet.java
+// TODO: This file should include all functionality relevant to the College Search page.  Please have it call out to ExecuteSearchServlet.java.
