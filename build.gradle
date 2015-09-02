@@ -11,7 +11,7 @@ gretty {
 }
 
 dependencies {
-    providedCompile (
+    compile (
         'org.apache.commons:commons-lang3:3.1',
         'javax.servlet:javax.servlet-api:3.1.0',
         'com.h2database:h2:1.4.187'
