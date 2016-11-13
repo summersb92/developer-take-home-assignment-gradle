@@ -1,12 +1,8 @@
-1. Install any subversion of Java JDK 1.7 from http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+1. Install any subversion of Java JDK 1.8 from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
-2. Download and install Gradle by going to: https://gradle.org/  Please install the latest version.
+2. Execute the following command from the project root: ./gradlew appRun (If you're on Windows, execute: gradlew.bat appRun).  This will compile the code and start up a local application server by utilizing the Gretty plugin for Gradle.  Gretty supports hot deployment.  When files are modified, Gretty will automatically reload your application.
 
-3. Execute the following command from the project root: gradle wrapper (Please note that the 'gradle' executable is inside of the 'bin' directory in the Gradle project)
-
-4. Execute the following command from the project root: gradlew appRun
-
-5. The application should now be accessible on http://localhost:8080.  Please note that this project utilizes a Gradle plug-in called 'Gretty', which supports hot deployment.  When files are modified, Gretty will automatically reload your application.
+3. The application should now be accessible on http://localhost:8080.
 
 If you would like to set up your take-home project in Eclipse or IntelliJ IDEA, please see below:
 
@@ -16,17 +12,17 @@ Eclipse:
 * Open the "Gradle Tasks" view by going to: Window > Show View > Other > Gradle Tasks.
 * Double click on the "appRunDebug" task.
 * You'll probably want to be able to make debugging work while you're working with the project in Eclipse.  To do so, right-click on the project in Eclipse > Debug As > Debug Configurations.  Create a new configuration of "Remote Java Application".  Please set the Port to: 5005.  Click on the Debug button.
-* If you go to http://localhost:8080 you should see the application load and see "Hello" rendered.
+* If you go to http://localhost:8080 you should see the application load and see some text rendered in the browser.
 * IMPORTANT: You should stop the application via the "appStop" Gradle task. Otherwise it will result in a hung process, which you have to kill manually.
 
 IntelliJ IDEA:
 * From the "Welcome to IntelliJ IDEA" Quick Start screen, click on "Import Project".
 * Select the folder where the Cappex take-home is located.  Click Ok.
 * Select the "Import project from external model" radio button > Select "Gradle".  Click Next.
-* Select the "Use customizable gradle wrapper" radio button.  Leave the rest of the settings alone.  Click Finish.
+* In the "Import Project" modal, there's no need to modify any of the default settings. Click Finish.
 * You'll probably want to be able to make debugging work while working with the project in IntelliJ IDEA.  To do so, go to: Run > Edit Configurations > Click on the '+' icon in the upper left-hand corner of the modal > Remote > Change the "Name" field to something more sensible, such as "Remote Debug".  Click Ok.
 * To run the application in debug mode, expand the Gradle tool window by clicking on "Gradle" on the right edge of IntelliJ IDEA.  If you're having trouble locating this, press Ctrl + Shift + A (Cmd + Shift + A on OS X) > type in "Gradle" > Select the "Gradle - Tool Windows" option and press Enter.
-* Once the Gradle tool window is expanded, double click on the "appStartDebug" task.  You should soon see "Listening for transport dt_socket at address: 5005" in the "Run" output window.
-* Go to Run > Debug > Click on "Remote Debug".  You should soon see "Run 'gradle appStop' to stop the server." in the "Run" output window.
-* If you go to http://localhost:8080 you should see the application load and see "Hello" rendered.
+* Once the Gradle tool window is expanded, you'll want to expand Tasks > gretty.  Double click on the "appStartDebug" task.  You'll now you're ready to move onto the next step if you no longer see any new activities taking place in IntelliJ IDEA.
+* Go to Run > Debug > Click on "Remote Debug".  You should see the following message: Connected to the target VM, address: 'localhost:5005', transport: 'socket'
+* If you go to http://localhost:8080 you should see the application load and see some text rendered in the browser.
 * IMPORTANT: You should stop the application via the "appStop" Gradle task. Otherwise it will result in a hung process, which you have to kill manually.

@@ -10,9 +10,9 @@
 
 <body>
   <!-- TODO: Write your JSP code here -->
-  Hello.
+  Hello, this is the search page.
 
-  <script src="/js/jquery-2.1.3.min.js" type="text/javascript"></script>
+  <script src="/js/jquery-3.1.1.min.js" type="text/javascript"></script>
   <script src="/js/search.js" type="text/javascript"></script>
 </body>
 </html>

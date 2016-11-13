@@ -1,0 +1,3 @@
+build/
+.gradle/
+cappex-test-database.mv.db

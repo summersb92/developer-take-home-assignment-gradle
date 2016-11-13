@@ -1,0 +1,24 @@
+Summary:
+The small web application you'll be building will provide users the ability to search for colleges.
+A wireframe can be found within the ./wireframe directory.
+The base web application included with this project already contains a base stylesheet, which is imported
+into search.jsp, and jQuery, which is also imported into search.jsp. To access the base search page
+go to either localhost:8080/ or localhost:8080/college-search.  Also, please take note that you can find
+the example database access code within the Main method of com.cappex.Main, which is also the method that
+starts the application server.
+
+
+Search page requirements:
+When a user types at least two characters into the college search input box, they will view search results for
+colleges that contain those characters.
+PLEASE NOTE - We ask that you do NOT use an existing JavaScript library that performs auto-complete search.
+ie, Using jQuery is perfectly fine but using jQuery UI's Autocomplete is NOT.
+
+When a user searches for colleges
+The page will not refresh.
+
+When no colleges match the college search criteria
+The user will see the following message: "No search results. Please try again."
+
+When multiple colleges match the college search criteria
+The user will view colleges in order of popularity, from most popular (highest) to least popular (lowest).
