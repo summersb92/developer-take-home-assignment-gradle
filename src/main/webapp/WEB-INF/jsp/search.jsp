@@ -9,8 +9,16 @@
 </head>
 
 <body>
-  <!-- TODO: Write your JSP code here -->
-  Hello, this is the search page.
+  <div class="centered">
+    <img class="logo" src="../img/cappex_header.png">
+
+    <h1 class="centered-text">College Search</h1>
+
+    <label for="college-input">Enter college name to search for:</label>
+    <input class="input-field" id="college-input"></input>
+
+    <div id="college-results"></div>
+  </div>
 
   <script src="/js/jquery-3.1.1.min.js" type="text/javascript"></script>
   <script src="/js/search.js" type="text/javascript"></script>

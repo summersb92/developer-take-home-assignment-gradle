@@ -1,1 +1,29 @@
-/* TODO: Write your CSS styles in this file. */
+body {
+    font-family: "Trebuchet MS", Verdana;
+}
+
+.input-field {
+    width: 100%;
+    font-size: 16px;
+}
+
+#college-results {
+    margin-top: 20px;
+}
+
+.centered {
+    margin: auto;
+    max-width: 800px;
+    padding: 40px;
+}
+
+.logo {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.centered-text {
+    text-align: center;
+}
