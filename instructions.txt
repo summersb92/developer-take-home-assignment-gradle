@@ -1,5 +1,5 @@
 Welcome to the Cappex developer take home exercise. The goal of this exercise is
-for you to code review an existing application and provice constructive
+for you to code review an existing application and provide constructive
 criticism to the author. As part of the code review we would like you to have
 an understanding of the requirements and the ability to use the application.
 Please read through the requirements detailed within the
@@ -12,8 +12,8 @@ categories and anything else that you feel is appropriate:
 3. JSP code
 4. CSS code
 5. Javascript code
-6. Uses architecture/patterns/packaging appropriately
-7. Visually appealing
+6. Use of architecture/patterns/packaging
+7. Visual appeal
 
 If you have any questions about the setup, requirements, or code review, please
 email jpark@cappex.com and mkruger@cappex.com and one of them will be happy to
@@ -22,7 +22,7 @@ assist you.
 Also, if you discover any issues with our documentation or setup,
 please don't hesitate to let us know. We are always looking for ways to improve.
 
-Have fun and we look forward to reviewing your work.
+Have fun and we look forward to reviewing your comments.
 
 Sincerely,
 The Cappex Technology Team
