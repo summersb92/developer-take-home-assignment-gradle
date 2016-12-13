@@ -1,16 +1,28 @@
-Welcome to the Cappex developer take home test. You will be setting up
-a development environment and writing a small web application as part of this
-take home test. The environment setup instructions, environment_setup_instructions.txt, 
-and web application requirements, web_application_requirements.txt, can both be 
-found within the same directory as this file.
+Welcome to the Cappex developer take home exercise. The goal of this exercise is
+for you to code review an existing application and provice constructive
+criticism to the author. As part of the code review we would like you to have
+an understanding of the requirements and the ability to use the application.
+Please read through the requirements detailed within the
+web_application_requirements.txt file and instructions for executing the
+application can be found within the environment_setup_instructions.txt file. For
+the code review, we would like you to provide code review comments for the following
+categories and anything else that you feel is appropriate:
+1. Java code
+2. SQL code
+3. JSP code
+4. CSS code
+5. Javascript code
+6. Uses architecture/patterns/packaging appropriately
+7. Visually appealing
 
-If you have any questions about the setup or requirements, please email 
-jpark@cappex.com and mkruger@cappex.com and one of them will be happy to assist you.
+If you have any questions about the setup, requirements, or code review, please
+email jpark@cappex.com and mkruger@cappex.com and one of them will be happy to
+assist you.
 
-Also, if you discover any issues with our documentation or base web application,
+Also, if you discover any issues with our documentation or setup,
 please don't hesitate to let us know. We are always looking for ways to improve.
 
-Have fun and we look forward to reviewing your work. 
+Have fun and we look forward to reviewing your work.
 
 Sincerely,
 The Cappex Technology Team
