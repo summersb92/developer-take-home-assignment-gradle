@@ -5,15 +5,15 @@ an understanding of the requirements and the ability to use the application.
 Please read through the requirements detailed within the
 web_application_requirements.txt file and instructions for executing the
 application can be found within the environment_setup_instructions.txt file. For
-the code review, we would like you to provide code review comments for the following
-categories and anything else that you feel is appropriate:
-1. Java code
-2. SQL code
-3. JSP code
-4. CSS code
-5. Javascript code
-6. Use of architecture/patterns/packaging
-7. Visual appeal
+the code review, we would like you to provide code review comments.  Here are 
+some of the categories you could focus on:
+
+* Java code
+* SQL code
+* JSP code
+* CSS code
+* JavaScript code
+* Use of architecture/patterns/packaging
 
 If you have any questions about the setup, requirements, or code review, please
 email jpark@cappex.com and mkruger@cappex.com and one of them will be happy to
